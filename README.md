@@ -1,4 +1,4 @@
-# Assignment-1
+# Assignment-2
 
 In this assignment, an online newspaper is developed which allows its users to provide 
 their own news.
