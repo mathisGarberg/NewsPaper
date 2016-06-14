@@ -1,0 +1,82 @@
+
+/*  Mandatory assignment in Web Programming 2
+// ==========================================
+//  Assignment: 1
+//  Filename: style.css
+//  Author: Mathis Garberg
+//	Date Created: 12.03.2016
+//	Description: Basic CSS
+//	Version: 1.0
+=========================================== */
+
+/* =============================
+   ====== Error Messages =======
+   ============================= */
+
+.form_required {
+	color: red;
+}
+
+#errors {
+	color: #CC1700;
+	background: #FDF7F7;
+	margin-bottom: 20px;
+}
+
+/* Tab Navigation */
+.nav-tabs {
+    margin: 0;
+    padding: 0;
+    border: 0;    
+}
+.nav-tabs > li > a {
+    background: #DADADA;
+    border-radius: 0;
+}
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover {
+    background: #F5F5F5;
+}
+
+/* Tab Content */
+.tab-pane {
+    border-radius: 0;
+    padding: 10px;
+	border: 1px solid #E7E7E7;
+}
+
+.logo {
+	color: #f26722;
+}
+
+/* Star Rating */
+.star-rating{
+	font-size: 0;
+}
+.star-rating__wrap{
+	display: inline-block;
+	font-size: 1rem;
+}
+.star-rating__wrap:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+.star-rating__ico{
+	float: right;
+	padding-left: 2px;
+	cursor: pointer;
+	color: #FFB300;
+}
+.star-rating__ico:last-child{
+	padding-left: 0;
+}
+.star-rating__input{
+	display: none;
+}
+.star-rating__ico:hover:before,
+.star-rating__ico:hover ~ .star-rating__ico:before,
+.star-rating__input:checked ~ .star-rating__ico:before
+{
+	content: "\f005";
+}
