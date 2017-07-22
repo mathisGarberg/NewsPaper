@@ -5,7 +5,7 @@ Assignment 2 in [Programmering for Web 2](https://www.ntnu.no/studier/emner/IMT3
 ## Brief description of the project
 An application that allows its users to provide fun news originating from both real and fake events.
 
-## Setup
+## Instructions
 
 Open connect.php file in the includes folder and modify $db_hostname, $db_username and 
 $db_password. You can now launch the setup.php file, and the database structure 
