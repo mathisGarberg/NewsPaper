@@ -7,7 +7,7 @@ An application that allows its users to provide fun news originating from both r
 
 ## Instructions
 
-#### Database
+#### Database Setup
 
 Open connect.php file in the includes folder and modify $db_hostname, $db_username and 
 $db_password. You can now launch the setup.php file, and the database structure 
