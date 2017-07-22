@@ -7,19 +7,19 @@ An application that allows its users to provide fun news originating from both r
 
 ## Instructions
 
-#### Database Setup
+#### Database setup
 
 Open connect.php file in the includes folder and modify $db_hostname, $db_username and 
 $db_password. You can now launch the setup.php file, and the database structure 
 will be created.
 
-#### Read Articles
+#### Read articles
 
 When entering the index.php page, you will see a summary of the most recent news. 
 You have the option to search for news items or sort them by date or rating. 
 Click on the news item to see the article. You may rate the article from 1-5.
 
-#### Create Articles
+#### Create articles
 
 To be able to create articles, you must register an account. 
 Functionality for validation for the registration fields is provided. 
@@ -29,7 +29,7 @@ there are some new options. You see all the default categories created.
 You can also create, edit and delete your own article. 
 You can update your profile information.
 
-#### Gain Admin Access
+#### Gain admin access
 
 Logg in as admin user with username "Smash" and password "12345". 
 The admin user has all of the same options as the members, 
